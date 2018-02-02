@@ -3,7 +3,7 @@
 int main()
 {
         printf("Hello World");
-        printf("Sample.c");
+        printf("Testing");
         return 0;
 }
 
