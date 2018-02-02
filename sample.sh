@@ -2,11 +2,11 @@
 
 filename="bundle-1-$1" # Name of binary file.
 
-file="test.c"  # C file.
+file="testing.c"  # C file.
 
 if [ -f $file ]
 then
-	gcc test.c -o $filename
+	gcc testing.c -o $filename
 	mv $filename $JENKINS_HOME/userContent/
 	echo "$filename is move in $JENKINS_HOME"
 	exit 0
